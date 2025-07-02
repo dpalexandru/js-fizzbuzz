@@ -5,6 +5,10 @@ for (let i = 1; i<= 100 ; i++) {
   if (i %3 == 0 && i %5 ==0) {
     console.log(`Fizzbuzzzzzz`)
   }
+  //aggiungo else if per selezionare i divisibili per 3
+  else if (i %3 ==0){
+    console.log(`Fizzzz`)
+  }
   else {
     console.log(i);
 }}
